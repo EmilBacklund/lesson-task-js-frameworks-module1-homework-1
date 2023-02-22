@@ -1,7 +1,3 @@
-const DefaultProfilePic = ({ altText }) => (
-  <>
-    <img src='/images/example.png' alt={altText} />
-  </>
-);
-
-export default DefaultProfilePic;
+export default function DefaultProfilePic({ altText }) {
+  return <img src='/images/example.png' alt={altText} />;
+}
